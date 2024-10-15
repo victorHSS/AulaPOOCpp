@@ -1,6 +1,6 @@
 #include <iostream>
 
-int teste;
+extern int teste;
 
 int main() {
 
