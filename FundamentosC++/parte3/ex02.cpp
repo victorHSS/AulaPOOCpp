@@ -2,7 +2,6 @@
 
 int main()
 {
-    unsigned a = 0, e = 0, i = 0;
     char ch;
 
     while (std::cin >> ch)
