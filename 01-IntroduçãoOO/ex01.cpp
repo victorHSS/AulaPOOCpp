@@ -7,7 +7,7 @@ using std::cout, std::endl, std::string;
 class Carro {
 //especificador de acesso público
 public:
-	//métodos, funções-membro, serviços, interface
+	//métodos, funções-membro, serviços
 	
 	//método get - retorna dado privado
 	string getMarca() {
