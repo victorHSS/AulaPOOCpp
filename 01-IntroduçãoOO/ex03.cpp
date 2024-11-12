@@ -13,7 +13,7 @@ public:
 		setModelo(modelo);
 	}
 	
-	string getMarca() {
+	string getMarca() const {
 		return m_marca;
 	}
 	
@@ -22,7 +22,7 @@ public:
 		m_marca = ( marca.empty() ? "\"Sem marca\"" : marca );
 	}
 		
-	string getModelo() {
+	string getModelo() const {
 		return m_modelo;
 	}
 	

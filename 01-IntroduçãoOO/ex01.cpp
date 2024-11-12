@@ -10,7 +10,7 @@ public:
 	//métodos, funções-membro, serviços
 	
 	//método get - retorna dado privado
-	string getMarca() {
+	string getMarca() const {
 		return m_marca;
 	}
 	

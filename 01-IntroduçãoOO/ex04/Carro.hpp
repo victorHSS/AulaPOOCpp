@@ -10,11 +10,11 @@ class Carro {
 public:
 	Carro(string marca, string modelo);
 	
-	string getMarca();
+	string getMarca() const;
 	
 	void setMarca(string marca);
 		
-	string getModelo();
+	string getModelo() const;
 	
 	void setModelo(string modelo);
 	

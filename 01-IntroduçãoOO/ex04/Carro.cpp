@@ -6,7 +6,7 @@ Carro::Carro(string marca, string modelo)
 	setModelo(modelo);
 }
 	
-string Carro::getMarca() {
+string Carro::getMarca() const {
 	return m_marca;
 }
 	
@@ -14,7 +14,7 @@ void Carro::setMarca(string marca){
 	m_marca = ( marca.empty() ? "\"Sem marca\"" : marca );
 }
 	
-string Carro::getModelo() {
+string Carro::getModelo() const {
 	return m_modelo;
 }
 
