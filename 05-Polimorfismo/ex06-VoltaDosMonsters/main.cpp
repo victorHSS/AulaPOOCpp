@@ -92,7 +92,7 @@ int main() {
   else 
     cout << "Não foi dessa vez!!" << endl;
   
-  for (int i = 0 ; i < 4 ; i++)
+  for (int i = 0 ; i < 3 ; i++)
     delete m[i];
 
   return 0;
